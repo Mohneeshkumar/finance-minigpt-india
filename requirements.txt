@@ -1,0 +1,17 @@
+# Core
+torch>=2.2
+
+# Testing
+pytest>=8.0
+
+# Visualization (notebooks + sanity check heatmap)
+matplotlib>=3.8
+numpy>=1.26
+
+# Optional: cleaner tensor reshaping for multi-head split/merge.
+# Safe to remove if you prefer writing raw .view()/.transpose() calls
+# for learning purposes.
+einops>=0.7
+
+# Deliberately excluded from this project:
+# transformers, datasets, tokenizers — not needed until Project 3 (BERT fine-tuning)
